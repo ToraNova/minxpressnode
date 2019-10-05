@@ -1,0 +1,3 @@
+# Ignore modules, these are installed using npm install
+/node_modules/*
+
