@@ -1,0 +1,27 @@
+<!-- Bootstrap Navigational Bar Template-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minimal Express NodeJS Server</title>
+
+<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+
+<script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendors/bootstrap/js/popper.js"></script>
+<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div>
+
+	<!--Content (pass in using the view variable the view variable should be a file from /view-->
+	<%- include(nav) %>
+	<br/>
+
+	<!--Content (pass in using the view variable the view variable should be a file from /view-->
+	<%- include(view) %>
+</div>
+</body>
+</html>
