@@ -2,7 +2,8 @@
 	"name": "minxpressnode",
 	"version": "0.0.1",
 	"scripts": {
-		"start": "env-cmd -f ./.env nodemon ./main.js"
+		"start": "env-cmd -f ./.env node ./cluster.js",
+		"dev": "env-cmd -f ./.env nodemon ./cluster.js"
 	},
 	"dependencies": {
 		"bcrypt": "^3.0.6",

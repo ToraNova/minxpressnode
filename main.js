@@ -2,38 +2,41 @@
  * ToraNova Minimalist ExpressJS Bootstrapper
  * 2019 Oct 05
  */
-const port = process.env.PORT
 
-//requires the express and pug (JADE) module
-const express = require("express")
-const app = express();
+module.exports = () => {
 
-//setup the webapp to use ejs templating engine
-app.set("view engine", "ejs")
+	//obtain port number
+	const port = process.env.PORT
 
-//declares the use of database.js
-require("./database.js")
+	//the main express application
+	const express = require("express")
+	const app = express();
 
-//obtain the routers
-const urouter = require("./routers/user.js")
-const brouter = require("./routers/base.js")
+	//setup the webapp to use ejs templating engine
+	app.set("view engine", "ejs")
 
-app.use(express.json())
+	//declares the use of database.js
+	require("./database.js")
 
-//user routes are added unto the /user url base
-app.use("/user", urouter )
+	//obtain the routers
+	const urouter = require("./routers/user.js")
+	const brouter = require("./routers/base.js")
 
-//base routes
-app.use("/", brouter )
+	app.use(express.json())
 
-//declare the static directory
-app.use(express.static("static"))
+	//user routes are added unto the /user url base
+	app.use("/user", urouter )
 
-//handle undefined routes
-//this route declare must be on the last line
-const handle404 = require("./routers/404.js")
-app.use(handle404)
+	//base routes
+	app.use("/", brouter )
 
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`)
-})
+	//declare the static directory
+	app.use(express.static("static"))
+
+	//handle undefined routes
+	//this route declare must be on the last line
+	const handle404 = require("./routers/404.js")
+	app.use(handle404)
+
+	app.listen(port)
+}

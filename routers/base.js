@@ -5,9 +5,6 @@
  * check up main.js before prefixing
  */
 
-//static values import from constants.js
-const cst = require("../constant.js")
-
 //router module to be used
 const express = require("express")
 const router = express.Router()
@@ -22,32 +19,11 @@ router.use(function (req,res,next){
 
 //For all GET routes
 router.get("/", function(req,res){
-	res.render( cst.layout,
-		{nav : cst.nav,
-		view : cst.vpath + "index.html"}
-	)
-})
-
-router.get("/about",function(req,res){
-	res.render( cst.layout,
-		{nav : cst.nav,
-		view : cst.vpath + "about.html"}
-	)
-})
-
-router.get("/contact",function(req,res){
-	res.render( cst.layout,
-		{nav : cst.nav,
-		view : cst.vpath + "contact.html"}
-	)
+	res.send("ToraNova 2019");
 })
 
 router.get("/profile", auth ,function(req,res){
-	res.send( req.user );
-})
-
-router.get("/login",function(req,res){
-	res.sendFile(cst.vpath + "login.html");
+	res.send(req.user);
 })
 
 //export the routes

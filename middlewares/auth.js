@@ -6,12 +6,15 @@
 const jwt = require("jsonwebtoken")
 const User = require("../schemas/user.js")
 
+//custom include of secret jwt key
+const jwtkey = require(process.env.JWT_KEYFILE)
+
 //this middleware is used to check if a request is authorized before
 //reaching the server
 const auth = async(req, res, next) => {
-	const token = req.header("Authorization").replace("Bearer ", '')
-	const data = jwt.verify(token, process.env.JWT_KEY)
 	try {
+		const token = req.header("Authorization").replace("Bearer ", '')
+		const data = jwt.verify(token, jwtkey.secret)
 		const user = await User.findOne({ _id: data._id, "tokens.token": token })
 		if (!user) {
 			throw new Error()
