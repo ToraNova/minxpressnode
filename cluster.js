@@ -23,7 +23,7 @@ if (cluster.isMaster) {
 		process.env.JWT_KEYFILE = kfp
 	}catch (error){
 		console.log(error)
-		console.log("JWT Key not initialized, please run \'node genkey.js\'.")
+		console.log("JWT Key not initialized, please run \'node tools/genkey.js\'.")
 		process.exit(1)
 	}
 
