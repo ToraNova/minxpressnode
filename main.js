@@ -2,73 +2,38 @@
  * ToraNova Minimalist ExpressJS Bootstrapper
  * 2019 Oct 05
  */
-var portnum = 8000;
+const port = process.env.PORT
 
 //requires the express and pug (JADE) module
-var express = require("express");
-var app = express();
+const express = require("express")
+const app = express();
 
 //setup the webapp to use ejs templating engine
-app.set('view engine', 'ejs')
+app.set("view engine", "ejs")
 
-//static vars
-//views are kept under /views/
-const vpath = __dirname + '/views/';
-const layout = __dirname + '/templates/bootstrap.ejs';
+//declares the use of database.js
+require("./database.js")
 
-//router routing
-var router = express.Router(); //router route
+//obtain the routers
+const urouter = require("./routers/user.js")
+const brouter = require("./routers/base.js")
 
-//Router defines
-router.use(function (req,res,next){
-	console.log("/" + req.method);
-	next(); //execute the router
-});
+app.use(express.json())
 
-//For all GET routes
-router.get("/",function(req,res){
-	res.render( layout,
-		{nav : vpath + "nav.html",
-		view : vpath + "index.html"}
-	);
-});
+//user routes are added unto the /user url base
+app.use("/user", urouter )
 
-router.get("/about",function(req,res){
-	res.render( layout,
-		{nav : vpath + "nav.html",
-		view : vpath + "about.html"}
-	);
-});
-
-router.get("/contact",function(req,res){
-	res.render( layout,
-		{nav : vpath + "nav.html",
-		view : vpath + "contact.html"}
-	);
-});
-
-router.get("/login",function(req,res){
-	res.sendFile(path + "login.html");
-});
-
-//For all POST routes
-//router.post("/login",blabla);
-
-app.use("/", router);
+//base routes
+app.use("/", brouter )
 
 //declare the static directory
 app.use(express.static("static"))
 
 //handle undefined routes
 //this route declare must be on the last line
-app.use("*",function(req,res){
-	res.render( layout,
-		{nav : vpath + "nav.html",
-		view : vpath + "404.html"}
-	);
-});
+const handle404 = require("./routers/404.js")
+app.use(handle404)
 
-//specify listening port
-app.listen(portnum,function(){
-	console.log("Listening on port "+portnum);
-});
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`)
+})
