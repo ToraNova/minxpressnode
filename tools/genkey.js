@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 /*
  * This script is used to generate a random JWT key
  * the key can then be used to sign JWT generated

@@ -14,6 +14,10 @@ const validator = require('validator')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
+//logger imports NOT USED FOR NOW
+//const logger = require("../services/logger.js")
+//logger.defaultMeta = { label:"User" }
+
 //custom include of secret jwt key
 const jwtkey = require(process.env.JWT_KEYFILE)
 
@@ -30,7 +34,7 @@ const userSchema = mongoose.Schema({
 		lowercase: true,
 		validate: value => {
 			if (!validator.isEmail(value)) {
-				throw new Error({error: 'Invalid Email address'})
+				throw new Error('Invalid email address')
 			}
 		}
 	},
@@ -56,10 +60,28 @@ userSchema.pre("save", async function (next) {
 	next()
 })
 
+// Perhaps we can do something after saving ?
+userSchema.post('save', function(doc) {
+	//doc is the saved document (?)
+});
+
 // Generate an auth token for the user
-userSchema.methods.generateAuthToken = async function() {
+userSchema.methods.generateAuthToken = async function( expiryTime ) {
 	const user = this
-	const token = jwt.sign({_id: user._id}, jwtkey.secret)
+
+	//default fallback to 1hour
+	if (!expiryTime) {
+		expiryTime = 3600
+	}
+
+	const token = jwt.sign({ _id: user._id }, jwtkey.secret,
+		{
+		algorithm: 'HS256',
+		expiresIn: expiryTime
+		}
+	)
+
+	//append to valid tokens
 	user.tokens = user.tokens.concat({token})
 	await user.save()
 	return token
@@ -67,13 +89,13 @@ userSchema.methods.generateAuthToken = async function() {
 
 // Search for a user by email and password.
 userSchema.statics.findByCredentials = async (email, password) => {
-	const user = await User.findOne({ email} )
+	const user = await User.findOne({email} )
 	if (!user) {
-		throw new Error({ error: "Invalid login credentials" })
+		throw new Error("Invalid login credentials")
 	}
 	const isPasswordMatch = await bcrypt.compare(password, user.password)
 	if (!isPasswordMatch) {
-		throw new Error({ error: "Invalid login credentials" })
+		throw new Error("Invalid login credentials")
 	}
 	return user
 }

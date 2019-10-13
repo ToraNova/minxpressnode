@@ -22,9 +22,5 @@ router.get("/", function(req,res){
 	res.send("ToraNova 2019");
 })
 
-router.get("/profile", auth ,function(req,res){
-	res.send(req.user);
-})
-
 //export the routes
 module.exports = router

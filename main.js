@@ -8,15 +8,29 @@ module.exports = () => {
 	//obtain port number
 	const port = process.env.PORT
 
-	//the main express application
+	//the main express application (using cross origin requests)
 	const express = require("express")
+	const cors = require("cors")
 	const app = express();
+
+	//whitelisted domains to allow for
+	var whitelist = ['http://localhost:3000']
+	var corsOptions = {
+		origin: function (origin, callback) {
+			if (whitelist.indexOf(origin) !== -1) {
+				callback(null, true)
+			} else {
+				callback(new Error('Not allowed by CORS'))
+			}
+		}
+	}
+
+	//declares the use of database.js
+	//THIS MUST BE IN THE MAIN FUNCTION
+	require("./database.js")
 
 	//setup the webapp to use ejs templating engine
 	app.set("view engine", "ejs")
-
-	//declares the use of database.js
-	require("./database.js")
 
 	//obtain the routers
 	const urouter = require("./routers/user.js")
@@ -25,6 +39,7 @@ module.exports = () => {
 	app.use(express.json())
 
 	//user routes are added unto the /user url base
+	app.use("/user", cors() ) //allow cross origin for /user/*
 	app.use("/user", urouter )
 
 	//base routes

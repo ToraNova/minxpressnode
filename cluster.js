@@ -5,12 +5,28 @@
  * under .env
  */
 
+const logger = require('./services/logger.js')
 const cluster = require('cluster');
 const os = require('os');
 const run = require('./main.js');
 
+//this is used to track the number of termination
+var failcount = 0
+
 // Check if current process is master.
 if (cluster.isMaster) {
+
+	//display port number the server is running on
+	logger.info({label:"Cluster",message:`Starting NodeJS Cluster on port ${process.env.PORT}`})
+	//output logger information
+	logger.debug({
+		label:"Logger",
+		message:
+`Level=${process.env.LOG_LEVEL} \
+Color=${process.env.LOG_COLOR} \
+Console=${process.env.LOG_CONSOLE}`
+	})
+
 
 	try{
 		//require the key
@@ -19,11 +35,12 @@ if (cluster.isMaster) {
 		//modules in subdirs can access the file as well
 		resolve = require('path').resolve
 		kfp = resolve(process.env.JWT_KEYFILE)
-		console.log("Keyfile : " + kfp)
+		logger.info({label:"JWT", message:`Keyfile@${kfp}`})
 		process.env.JWT_KEYFILE = kfp
 	}catch (error){
-		console.log(error)
-		console.log("JWT Key not initialized, please run \'node tools/genkey.js\'.")
+		logger.error({label:"JWT", message:error})
+		logger.error({label:"JWT",
+			message:"JWT Key not initialized, please run \'node tools/genkey.js\'"})
 		process.exit(1)
 	}
 
@@ -33,17 +50,37 @@ if (cluster.isMaster) {
 	// Spawn a worker for every core.
 	for (let j = 0; j < cpuCount && j < process.env.MAX_THREADS; j++) {
 		cluster.fork();
-		console.log(`Worker thread ${j} started.`)
+		logger.verbose({label:"Cluster",message:`Worker thread ${j} started`})
 	}
 
 } else {
 	// This is not the master process, so we spawn the express server.
-	run();
+	run()
 }
 
 // Cluster API has a variety of events.
 // Here we are creating a new process if a worker die.
 cluster.on('exit', function (worker) {
-	console.log(`Worker ${worker.id} died, starting a new one...'`);
-	cluster.fork();
+	logger.warn({label:"Cluster",
+		message:`Worker ${worker.id} died`})
+	if( failcount++ < 5 ){
+		//try agait
+		logger.warn({label:"Cluster",
+			message:`Restarting new instance`})
+		cluster.fork()
+	}else{
+		//failed more than a hundred times
+		logger.warn({label:"Cluster",
+			message:`Threshold reached, aborting fork`})
+	}
+});
+
+//catch all unhandled rejection and logs it
+process.on('unhandledRejection', (reason, p) => {
+	//log it first
+	logger.error({label:"Error",
+		message:`Unhandled Rejection, ${reason}`});
+	console.log(reason)
+	//dump exception
+	// application specific logging, throwing an error, or other logic here
 });
