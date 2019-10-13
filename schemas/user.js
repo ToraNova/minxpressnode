@@ -88,14 +88,24 @@ userSchema.methods.generateAuthToken = async function( expiryTime ) {
 }
 
 // Search for a user by email and password.
-userSchema.statics.findByCredentials = async (email, password) => {
+// This throws error if input is invalid or if user don't exist or password is wrong
+userSchema.statics.findAndValidateUser = async (email, password) => {
+	//SANITIZATION
+	//TODO: other sanitization works
+	if(!email){
+		throw new Error("Sanitization reject")
+	}
+
+	//SEARCH COLLECTIONS
 	const user = await User.findOne({email} )
 	if (!user) {
-		throw new Error("Invalid login credentials")
+		throw new Error("Invalid user")
 	}
+
+	//PASSWORD CHECK
 	const isPasswordMatch = await bcrypt.compare(password, user.password)
 	if (!isPasswordMatch) {
-		throw new Error("Invalid login credentials")
+		throw new Error("Invalid password")
 	}
 	return user
 }

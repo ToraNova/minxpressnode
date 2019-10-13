@@ -23,6 +23,7 @@ const auth = async(req, res, next) => {
 			return res.status(401).send({ error: "Missing auth header" })
 		}
 		const token = req.header("Authorization").replace("Bearer ", '')
+		//logger.debug({label:"Auth",message:"token:"+token})
 		const data = jwt.verify(token, jwtkey.secret)
 		const user = await User.findOne({ _id: data._id, "tokens.token": token })
 		if (!user) {

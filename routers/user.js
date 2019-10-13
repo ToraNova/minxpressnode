@@ -51,24 +51,28 @@ router.post('/add', async (req, res) => {
 //edited to use promise error handling (2019 Oct 13)
 router.post("/login", async(req, res) => {
 
+	//FIND THE USER IN THE DATABASE FIRST, AND VALIDATE CREDENTIALS
+	//failing to execute here should send a 401
+	var user = undefined
 	try{
 		const { email, password } = req.body
-		//prevent funny business
-		if(!email || !password){
-			//TODO: better sanitization function rather than just testing for NULL
-			return res.status(401).send({error: "Invalid input"})
-		}
-		const logstr = `login attempt : ${email}`
-		const user = await User.findByCredentials(email, password)
-		if(!user){
-			//error with authentication credentials (can't find user)
-			//TODO: log brute force attempts and ipban ?
-			logger.info( "Failed " + logstr)
-			return res.status(401).send({error: "Invalid authentication credentials"})
-		}
+		//the following will throw error if
+		// email is null, user is invalid, password is invalid
+		// it ONLY returns valid user
+		user = await User.findAndValidateUser(email, password)
+	}catch (e){
+		//either bad request (no body) or invalid credentials
+		//TODO: log brute force attempts and ipban ?
+		logger.debug("UserValid/",e)
+		logger.info(`Failed login attempt from ${req.body.email} ${req.ip}`)
+		return res.status(401).send({error: "Invalid authentication credentials"})
+	}
 
+	//by here, user is valid. if we fail here most likely server fault
+	try{
 		const token = await user.generateAuthToken()
-		logger.info( "Successful " + logstr)
+		logger.info(`Successful login attempt from ${user.name}`)
+		//return 201 (created user token and session)
 		return res.status(201).send({ user, token})
 	}catch (e){
 		//token gen error or other unknown causes
@@ -95,7 +99,7 @@ router.post("/logout", auth, async (req, res) => {
 		logger.info(`Logging ${req.user.name} out of device`)
 		await req.user.save()
 		logger.silly("success")
-		res.send("success")
+		res.send({res: "success"})
 	} catch (e) {
 		logger.error("Logout/",e)
 		res.status(500).send(e)
@@ -111,7 +115,7 @@ router.post("/logout/all", auth, async(req, res) => {
 		logger.info(`Logging ${req.user.name} out of system`)
 		await req.user.save()
 		logger.silly("success")
-		res.send("success")
+		res.send({res: "success"})
 	} catch (e) {
 		logger.error("Logoutall/",e)
 		res.status(500).send(e)
