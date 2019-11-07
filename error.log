@@ -72,3 +72,75 @@
 {"label":"User","level":"error","message":"TokenGen/Invalid login credentials","stack":"Error: Invalid login credentials\n    at Function.userSchema.statics.findByCredentials (/home/cjason/prodev/minxpressnode/schemas/user.js:94:9)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async /home/cjason/prodev/minxpressnode/routers/user.js:62:16"}
 {"label":"User","message":"Unhandled Rejection, ReferenceError: email is not defined","level":"error"}
 {"label":"User","level":"error","message":"TokenGen/user is not defined","stack":"ReferenceError: user is not defined\n    at /home/cjason/prodev/minxpressnode/routers/user.js:72:17"}
+{"label":"User","message":"subscribe/MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}

@@ -13,14 +13,30 @@
 
 const logger = require("./services/logger.js")
 const mongoose = require("mongoose")
+const fs = require("fs")
 
 //attempt to connect
 try {
-	mongoose.connect(process.env.MONGODB_URL, {
-		useNewUrlParser: true,
-		useCreateIndex: true,
-		useUnifiedTopology: true,
-	})
+	if(process.env.MONGODB_TLS){
+		const newuri = process.env.MONGODB_URL +
+			`&ssl=true\
+&tlsCAFile=${process.env.MONGODB_TLS_CAFILE}\
+&tlsAllowInvalidCertificates=${process.env.MONGODB_TLS_ALLOWINVALID}`
+		//console.log(newuri) //debugging use only
+		mongoose.connect(newuri,
+		{
+			useNewUrlParser: true,
+			useCreateIndex: true,
+			useUnifiedTopology: true,
+		})
+
+	}else{
+		mongoose.connect(process.env.MONGODB_URL, {
+			useNewUrlParser: true,
+			useCreateIndex: true,
+			useUnifiedTopology: true,
+		})
+	}
 	logger.verbose({label:"Database", message:"connect/OK"})
 } catch (e) {
 	logger.error({label:"Database", message:"connect/"+e})
