@@ -6,27 +6,29 @@
  * project
  *
  * to launch the script, do:
- * mongo setupdb.js
+ * mongoscript.sh setupadmin.js
  *
  */
 
-//connects to the local mongodb instance
-//PLEASE change this based on where the mongo is
-const dbconn = connect('localhost:27017/minxpressnode');
+const username = "mxn-admin"
+const dbname = "minxpressnode"
+const projname = "mxn"
+
+db = db.getSiblingDB(dbname)
 
 const app_admin = {
-	user: "mxn-admin",
+	user: username,
 	pwd: passwordPrompt(), //you could also use cleartext, but please don't
-	customData: { project: "mxn" },
+	customData: { project: projname },
 	roles: [
-	{ role: "readWrite", db: "minxpressnode" }
+	{ role: "readWrite", db: dbname }
 	],
 	mechanisms: [ "SCRAM-SHA-256" ],
 	passwordDigestor: "server"
 };
 
 try {
-	dbconn.createUser( app_admin );
+	db.createUser( app_admin );
 } catch (e){
 	print(e)
 	//or printjson(e)
