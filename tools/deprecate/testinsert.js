@@ -1,4 +1,5 @@
 #!/usr/bin/mongo
+
 /*
  * This is a javscript which prints out all users and their artefacts
  * onto stdout
@@ -13,12 +14,10 @@
 //PLEASE change this based on where the mongo is
 const dbconn = connect('localhost:27017/minxpressnode');
 
-var userlist = null
 
-//set a reference to all documents in the database
-userlist = dbconn.users.find();
-
-//iterate the names collection and output each document
-while (userlist.hasNext()) {
-	printjson(userlist.next());
+//test insert
+try {
+	dbconn.users.insert({"email":"xyzabc@testmail.com","name":"testinsert","password":"$2b$08$y7LXaB8KSeeJ4yoolDF2ge/ouzRdt2twLj6Id9ELPAPJllLzW4wsS"})
+} catch (e){
+	print(e)
 }

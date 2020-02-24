@@ -10,14 +10,14 @@
  *
  */
 
-//connects to the local mongodb instance
-//PLEASE change this based on where the mongo is
-const dbconn = connect('localhost:27017/minxpressnode');
+//the dbname to insert onto a collection
+const dbname = "minxpressnode"
 
+db = db.getSiblingDB( dbname )
 
-//test insert
+//test insert onto the "users" collection
 try {
-	dbconn.users.insert({"email":"xyzabc@testmail.com","name":"testinsert","password":"$2b$08$y7LXaB8KSeeJ4yoolDF2ge/ouzRdt2twLj6Id9ELPAPJllLzW4wsS"})
+	db.users.insert({"email":"xyzabc@testmail.com","name":"testinsert","password":"$2b$08$y7LXaB8KSeeJ4yoolDF2ge/ouzRdt2twLj6Id9ELPAPJllLzW4wsS"})
 } catch (e){
 	print(e)
 }

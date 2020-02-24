@@ -1,0 +1,161 @@
+{"label":"Cluster","message":"Starting NodeJS Cluster on port 1996","level":"info"}
+{"label":"Logger","message":"Level=silly Color=1 Console=1","level":"debug"}
+{"label":"JWT","message":"Keyfile@/home/cjason/prodev/minxpressnode/.jwt","level":"info"}
+{"label":"Cluster","message":"Worker thread 0 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 1 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 2 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 3 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 4 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 5 started","level":"verbose"}
+{"label":"Cluster","message":"Worker 1 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 3 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 2 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 4 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 5 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 6 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 7 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 10 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 8 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 11 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 9 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Starting NodeJS Cluster on port 1996","level":"info"}
+{"label":"Logger","message":"Level=silly Color=1 Console=1","level":"debug"}
+{"label":"JWT","message":"Keyfile@/home/cjason/prodev/minxpressnode/.jwt","level":"info"}
+{"label":"Cluster","message":"Worker thread 0 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 1 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 2 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 3 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 4 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 5 started","level":"verbose"}
+{"label":"Cluster","message":"Worker 1 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 4 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 3 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 5 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 6 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 2 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 8 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 9 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 7 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 10 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 11 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Starting NodeJS Cluster on port 1996","level":"info"}
+{"label":"Logger","message":"Level=silly Color=1 Console=1","level":"debug"}
+{"label":"JWT","message":"Keyfile@/home/cjason/prodev/minxpressnode/.jwt","level":"info"}
+{"label":"Cluster","message":"Worker thread 0 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 1 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 2 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 3 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 4 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 5 started","level":"verbose"}
+{"label":"Cluster","message":"Worker 1 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 5 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 2 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 3 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 6 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 4 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 8 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 7 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 11 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 10 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 9 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Starting NodeJS Cluster on port 1996","level":"info"}
+{"label":"Logger","message":"Level=silly Color=1 Console=1","level":"debug"}
+{"label":"JWT","message":"Keyfile@/home/cjason/prodev/minxpressnode/.jwt","level":"info"}
+{"label":"Cluster","message":"Worker thread 0 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 1 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 2 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 3 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 4 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 5 started","level":"verbose"}
+{"label":"Cluster","message":"Worker 3 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 5 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 6 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 1 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 4 died","level":"warn"}
+{"label":"Cluster","message":"Restarting new instance","level":"warn"}
+{"label":"Cluster","message":"Worker 2 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 9 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 7 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 8 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 10 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Worker 11 died","level":"warn"}
+{"label":"Cluster","message":"Threshold reached, aborting fork","level":"warn"}
+{"label":"Cluster","message":"Starting NodeJS Cluster on port 1996","level":"info"}
+{"label":"Logger","message":"Level=silly Color=1 Console=1","level":"debug"}
+{"label":"JWT","message":"Keyfile@/home/cjason/prodev/minxpressnode/.jwt","level":"info"}
+{"label":"Cluster","message":"Worker thread 0 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 1 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 2 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 3 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 4 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 5 started","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"User","message":"Authorization header missing","level":"debug"}
+{"label":"User","level":"debug","message":"UserValid/Invalid password","stack":"Error: Invalid password\n    at Function.userSchema.statics.findAndValidateUser (/home/cjason/prodev/minxpressnode/schemas/user.js:108:9)\n    at async /home/cjason/prodev/minxpressnode/routers/user.js:62:10"}
+{"message":"Failed login attempt from chia_jason96@live.com ::1","level":"info","label":"User"}
+{"message":"User Add Request tester1:test@gmail.com","level":"debug","label":"User"}
+{"message":"New User Registered test@gmail.com:tester1","level":"info","label":"User"}
+{"label":"Cluster","message":"Starting NodeJS Cluster on port 1996","level":"info"}
+{"label":"Logger","message":"Level=silly Color=1 Console=1","level":"debug"}
+{"label":"JWT","message":"Keyfile@/home/cjason/prodev/minxpressnode/.jwt","level":"info"}
+{"label":"Cluster","message":"Worker thread 0 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 1 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 2 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 3 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 4 started","level":"verbose"}
+{"label":"Cluster","message":"Worker thread 5 started","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"label":"Database","message":"connect/OK","level":"verbose"}
+{"message":"Logging tester1 out of system","level":"info","label":"User"}
+{"message":"success","level":"silly","label":"User"}
