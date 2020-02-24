@@ -16,9 +16,15 @@
             "hash": "4d3210a58adc778c4d79a7223f74f43f"
         },
         {
+<<<<<<< HEAD
             "date": 1582579984421,
             "name": "logs/json-2020-02-25.log",
             "hash": "010661710844f9af0af3d1a0bb1ead7a"
+=======
+            "date": 1573240606576,
+            "name": "logs/json-2019-11-09.log",
+            "hash": "f9c8a5546096692b83c14fec2f7a870c"
+>>>>>>> d1ff52e54585839177ceed21a19d9a2d5442b6eb
         }
     ]
 }
