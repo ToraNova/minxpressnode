@@ -1,3 +1,5 @@
 Requires update:
 logout function
 agendajs (email)
+
+fix mongoose selfsigned certificate

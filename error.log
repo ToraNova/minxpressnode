@@ -144,3 +144,51 @@
 {"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
 {"label":"User","message":"subscribe/MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
 {"label":"User","message":"Unhandled Rejection, MongoNetworkError: connection 0 to cj-dbserv:27017 closed","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}

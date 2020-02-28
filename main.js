@@ -34,6 +34,7 @@ module.exports = () => {
 
 	//obtain the routers
 	const urouter = require("./routers/user.js")
+	const frouter = require("./routers/file.js")
 	const brouter = require("./routers/base.js")
 
 	app.use(express.json())
@@ -41,6 +42,9 @@ module.exports = () => {
 	//user routes are added unto the /user url base
 	app.use("/user", cors() ) //allow cross origin for /user/*
 	app.use("/user", urouter )
+
+	//file routes are added unto the /file base
+	app.use("/file", frouter )
 
 	//base routes
 	app.use("/", brouter )
