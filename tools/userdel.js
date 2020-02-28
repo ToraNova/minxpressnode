@@ -12,7 +12,6 @@ const dbname = "minxpressnode"
 
 db = db.getSiblingDB( dbname )
 
-//TODO fix this
 //db.users.remove( { email: "test@gmail.com" } ) //remove all users with this email
-db.users.remove( { email: "test@gmail.com" }, true ) //remove ONE user with this email
+db.users.remove( { email: "xyzabc@testmail.com" }, true ) //remove ONE user with this email
 //db.users.remove( {} ) //remove all documents inside the 'user' collection

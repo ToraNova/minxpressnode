@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Test file upload
-# upload a file (using unauthorized path)
+# upload a file
+[ ! -f 'token' ] && echo 'Please get token from login first!' && exit 1
+authtoken=$(cat token)
 
-curl -i -X POST -H "Content-Type: multipart/form-data" -H "Authorization: Bearer ${authtoken}" -F "file=@logo.png" http://localhost:1996/file/upload -v
+curl -v -X POST -H "Content-Type: multipart/form-data" -H "Authorization: Bearer ${authtoken}" -F "file=@imlogo.png" http://localhost:1996/file/upload

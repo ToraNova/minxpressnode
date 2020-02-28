@@ -98,7 +98,7 @@ router.post("/logout", auth, async (req, res) => {
 		//log and send
 		logger.info(`Logging ${req.user.name} out of device`)
 		await req.user.save()
-		logger.silly("success")
+		//logger.silly("success")
 		res.send({res: "success"})
 	} catch (e) {
 		logger.error("Logout/",e)
@@ -114,7 +114,7 @@ router.post("/logout/all", auth, async(req, res) => {
 		//log and send
 		logger.info(`Logging ${req.user.name} out of system`)
 		await req.user.save()
-		logger.silly("success")
+		//logger.silly("success")
 		res.send({res: "success"})
 	} catch (e) {
 		logger.error("Logoutall/",e)

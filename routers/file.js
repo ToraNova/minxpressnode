@@ -6,10 +6,15 @@
 //router module to be used
 const express = require("express")
 const router = express.Router()
+const util = require('util')
+
 
 //logger imports
 const logger = require("../services/logger.js")
 logger.defaultMeta = { label:"File" }
+
+//authentication
+const auth = require("../middlewares/auth.js")
 
 //import multer (file upload middleware)
 const multer = require("multer")
@@ -29,23 +34,19 @@ const upload = multer({ storage: storage })
 //scheduler TODO: fix the scheduler
 //const agendajs = require("../jobs/agenda.js")
 
-router.post('/upload', async (req, res) => {
-
-})
-
 //<form action="/upload" enctype="multipart/form-data" method="POST">
 //<input type="file" name="file" />
 //<input type="submit" value="Upload a file"/>
 //</form>
-router.post('/upload', upload.single('file'), (req, res, next) => {
+router.post('/upload', auth, upload.single('file'), (req, res, next) => {
 	const file = req.file
 	if (!file) {
 		const error = new Error('File Upload Error')
 		error.httpStatusCode = 400
 		return next(error)
 	}
-	logger.debug( req )
-	logger.info(`File upload from ${req.body.email} ${req.ip}`)
+	//logger.debug(util.inspect(req, {showHidden: true, depth: null}))
+	logger.info(`User ${req.user.name} uploaded file ${req.file.originalname} ${req.file.mimetype} from IP: ${req.ip}`)
 	res.send(file)
 })
 
