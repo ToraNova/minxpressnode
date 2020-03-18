@@ -55,10 +55,13 @@ const logger = createLogger({
 	exitOnError: false
 });
 //TODO when using logger,
-//do:
+// this allows the easy syntax of logger.info( "some message" )
+// instead of logger.info({label:"somelabel", message:"some message"})
+// DO:
 //logger.defaultMeta = {label: "somelabel"}
-//this allows the easy syntax of logger.info( "some message" )
-//instead of logger.info({label:"somelabel", message:"some message"})
+// NOTE:
+// clear the meta DO THIS AT THE END OF THE FILE!
+//logger.defaultMeta = undefined;
 
 // If we're not in production then log to the `console` with the format:
 // also allow is the LOG_CONSOLE flag is set (overrides the production flag)

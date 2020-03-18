@@ -192,3 +192,233 @@
 {"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
 {"label":"File","message":"subscribe/MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
 {"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: self signed certificate in certificate chain","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'TLS' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'TLS' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'TLS' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'TLS' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'TLS' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'TLS' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"Database","message":"connect/TypeError: Cannot read property 'URL' of undefined","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongoParseError: Incomplete key value pair for option","level":"error"}
+{"label":"File","message":"subscribe/MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}
+{"label":"File","message":"Unhandled Rejection, MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}
+{"label":"Database","message":"subscribe/MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}
+{"label":"Error","message":"Unhandled Rejection, MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}
+{"label":"Database","message":"subscribe/MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}
+{"label":"Error","message":"Unhandled Rejection, MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}

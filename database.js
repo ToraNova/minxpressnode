@@ -17,27 +17,30 @@ const fs = require("fs")
 
 //attempt to connect
 try {
-	if(process.env.MONGODB_TLS){
-		const newuri = process.env.MONGODB_URL +
-			`&ssl=true\
-&tlsCAFile=${process.env.MONGODB_TLS_CAFILE}\
-&tlsAllowInvalidCertificates=${process.env.MONGODB_TLS_ALLOWINVALID}`
+
+	var url = `mongodb://${process.env.MONGO_HOST}:${process.env.MONGO_PORT}/${process.env.MONGO_DB}?retryWrites=true&w=majority`
+	if(process.env.MONGO_TLS == 'true' || process.env.MONGO_TLS == '1' ) {
+		const newuri = url + `&ssl=true\
+&tlsCAFile=${process.env.MONGO_TLS_CAFILE}\
+&tlsAllowInvalidCertificates=${process.env.MONGO_TLS_ALLOWINVALID}`
 		//console.log(newuri) //debugging use only
 		mongoose.connect(newuri,
-		{
+		{	auth: { user:process.env.MONGO_USER,
+			password:process.env.MONGO_PW },
 			useNewUrlParser: true,
 			useCreateIndex: true,
-			useUnifiedTopology: true,
+			useUnifiedTopology: true
 		})
-
 	}else{
-		mongoose.connect(process.env.MONGODB_URL, {
+		logger.warn({label:"Database", message:"Unencrypted connection to mongodb server"})
+		mongoose.connect(url,
+		{	auth: { user:process.env.MONGO_USER,
+			password:process.env.MONGO_PW },
 			useNewUrlParser: true,
 			useCreateIndex: true,
-			useUnifiedTopology: true,
+			useUnifiedTopology: true
 		})
 	}
-	logger.verbose({label:"Database", message:"connect/OK"})
 } catch (e) {
 	logger.error({label:"Database", message:"connect/"+e})
 }

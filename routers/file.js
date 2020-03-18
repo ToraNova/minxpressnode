@@ -24,7 +24,6 @@ const storage = multer.diskStorage({
 		cb(null, 'uploads')
 	},
 	filename: function (req, file, cb) {
-		logger.debug( file )
 		cb(null, file.fieldname + '-' + Date.now())
 	}
 })
@@ -50,6 +49,20 @@ router.post('/upload', auth, upload.single('file'), (req, res, next) => {
 	res.send(file)
 })
 
+//This route does not require authentication
+//Please do not use this in production!
+router.post('/insecure/upload', upload.single('file'), (req, res, next) => {
+	const file = req.file
+	if (!file) {
+		const error = new Error('File Upload Error')
+		error.httpStatusCode = 400
+		return next(error)
+	}
+	//logger.debug(util.inspect(req, {showHidden: true, depth: null}))
+	logger.info(`File uploaded ${req.file.originalname} ${req.file.mimetype} from IP: ${req.ip}`)
+	res.send(file)
+})
+
 //<form action="/upload/photo" enctype="multipart/form-data" method="POST">
 //<input type="file" name="imagefile" accept="image/*" />
 //<input type="submit" value="Upload Photo"/>
@@ -57,3 +70,5 @@ router.post('/upload', auth, upload.single('file'), (req, res, next) => {
 
 //export the routes
 module.exports = router
+//clear the meta
+logger.defaultMeta = undefined;

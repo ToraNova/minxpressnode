@@ -137,3 +137,5 @@ router.get("/del", auth, async(req, res) => {
 
 //export the routes
 module.exports = router
+//clear the meta
+logger.defaultMeta = undefined;

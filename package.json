@@ -3,8 +3,9 @@
 	"version": "0.0.1",
 	"author": "ToraNova",
 	"scripts": {
-		"start": "env-cmd -f ./.env node ./cluster.js",
-		"dev": "env-cmd -f ./.env nodemon ./cluster.js"
+		"start": "env-cmd -e development node ./cluster.js",
+		"prod": "env-cmd -e production node ./cluster.js",
+		"dev": "env-cmd -e development nodemon ./cluster.js"
 	},
 	"dependencies": {
 		"agenda": "^2.1.0",
@@ -17,6 +18,7 @@
 		"mailgun": "^0.5.0",
 		"mongodb": "^3.3.2",
 		"mongoose": "^5.7.5",
+		"mqtt": "^3.0.0",
 		"multer": "^1.4.2",
 		"saslprep": "^1.0.3",
 		"validator": "^11.1.0",
