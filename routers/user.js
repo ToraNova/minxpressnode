@@ -20,7 +20,6 @@ const auth = require("../middlewares/auth.js")
 
 // Create a new user
 router.post('/add', async (req, res) => {
-
 	const user = new User(req.body)
 	logger.debug(`User Add Request ${user.name}:${user.email}`)
 	try{
@@ -44,7 +43,6 @@ router.post('/add', async (req, res) => {
 		//server error
 		return res.status(500).send({error: "TokenGen failed"})
 	})
-
 })
 
 //Login a registered user via email
@@ -126,6 +124,7 @@ router.post("/logout/all", auth, async(req, res) => {
 router.get("/del", auth, async(req, res) => {
 	try {
 		//Delete the user
+		logger.info(`${req.user.name} deleted from system`)
 		await req.user.remove()
 		//send 204 to indicate success (no content)
 		res.status(204).send()

@@ -422,3 +422,5 @@
 {"label":"Error","message":"Unhandled Rejection, MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}
 {"label":"Database","message":"subscribe/MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}
 {"label":"Error","message":"Unhandled Rejection, MongooseServerSelectionError: connection <monitor> to 10.96.62.10:27017 closed","level":"error"}
+{"label":"Database","message":"subscribe/MongooseServerSelectionError: connection timed out","level":"error"}
+{"label":"Error","message":"Unhandled Rejection, MongooseServerSelectionError: connection timed out","level":"error"}

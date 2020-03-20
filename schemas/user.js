@@ -43,6 +43,10 @@ const userSchema = mongoose.Schema({
 		required: true,
 		minLength: 7,
 	},
+	created: {
+		type: Date,
+		default: Date.now
+	},
 	tokens: [{
 		token: {
 			type: String,
